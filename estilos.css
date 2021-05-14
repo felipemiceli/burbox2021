@@ -1,0 +1,168 @@
+header {
+  background-color: #000000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(84%, #b82e1f));
+  background-image: linear-gradient(180deg, #000000 0%, #b82e1f 84%);
+  margin-top: 10px;
+  height: 28vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 18vh;
+  font-family: "rocknroll one",sans-serif;
+  margin-top: 20px;
+}
+
+h1.titulo {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+div.d-sm-flex {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a {
+  font-family: "rocknroll one",sans-serif;
+}
+
+body {
+  background-color: #000000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(84%, #b82e1f));
+  background-image: linear-gradient(180deg, #000000 0%, #b82e1f 84%);
+}
+
+nav {
+  margin-top: 30vh;
+  background-color: #000000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(84%, #b82e1f));
+  background-image: linear-gradient(180deg, #000000 0%, #b82e1f 84%);
+}
+
+nav a {
+  color: #F1CBCB;
+}
+
+label {
+  color: #F1CBCB;
+}
+
+.logo {
+  display: inline;
+  position: relative;
+  height: 28vh;
+  float: left;
+}
+
+#titvideo {
+  color: white;
+  font-size: 5vh;
+  padding-left: 1rem;
+  font-family: "rocknroll one",sans-serif;
+  margin-top: 2rem;
+  background-color: #000000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(84%, #b82e1f));
+  background-image: linear-gradient(180deg, #000000 0%, #b82e1f 84%);
+}
+
+iframe#escabia2 {
+  width: 80%;
+  height: 50vh;
+  margin-top: 2rem;
+  margin-left: 10%;
+}
+
+form {
+  margin-top: 15px;
+}
+
+.galeria {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+  z-index: -1;
+}
+
+.burgas {
+  width: 600vh;
+  z-index: -1;
+}
+
+#envios {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+.tituloenvio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.redes {
+  color: white;
+  display: inline;
+}
+
+nav {
+  z-index: -10;
+}
+
+.sociales {
+  padding-left: 40%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 3vh;
+  font-family: "rocknroll one",sans-serif;
+}
+
+table {
+  width: 99%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(84%, #b82e1f));
+  background-image: linear-gradient(180deg, #000000 0%, #b82e1f 84%);
+}
+/*# sourceMappingURL=estilos.css.map */
